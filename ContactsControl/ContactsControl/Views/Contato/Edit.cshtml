@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Edição de Contatos";
+}
+<div class="cont">
+    <div class="text-center">
+
+        <h1 class="display-4">Editor de Contato</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <form class="needs-validation  align-content-sm-start" novalidate>
+        <div class="container">
+            <div class="form-row row">
+                <div class="col-md-4 mb-3 col-sn">
+                    <input type="text" class="form-control ColorSiteDark" id="validationCustom01" placeholder="Nome Completo" required>
+                </div>
+                <div class="col-md-4 mb-3 col-sn">
+                    <input type="text" class="form-control ColorSiteDark" id="validationCustom02" placeholder="E-Mail" required>
+                </div>
+                <div class="col-md-4 mb-3 col-sn">
+                    <input type="text" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Contato" aria-describedby="inputGroupPrepend" required>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <button class="btn btn-outline-success" type="submit">Alterar</button>
+        <a class="btn btn-outline-secondary text-light" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
+    </form>
+</div>
