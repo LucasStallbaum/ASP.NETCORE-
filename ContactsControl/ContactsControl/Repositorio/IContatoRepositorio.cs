@@ -2,7 +2,7 @@
 
 namespace ContactsControl.Repositorio
 {
-    public interface InterfaceContatoRepositorio
+    public interface IContatoRepositorio
     {
         ContatoModel Adicionar(ContatoModel contato);
     }

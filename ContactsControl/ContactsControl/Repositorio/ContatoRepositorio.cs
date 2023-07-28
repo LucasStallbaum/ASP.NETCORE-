@@ -1,27 +1,23 @@
 ﻿using ContactsControl.Data;
 using ContactsControl.Models;
+using ContactsControl.Repositorio;
 
-namespace ContactsControl.Repositorio
+namespace WebApplication3.Repostorio
 {
-    public class ContatoRepositorio
+    public class ContatoRepositorio : IContatoRepositorio
     {
-        public class ContaRepositorio : InterfaceContatoRepositorio
+        private readonly BancoContext _bancoContext;
+        public ContatoRepositorio(BancoContext bancoContext)
         {
-            private readonly BancoContext _bancoContext;
+            _bancoContext = bancoContext;
+        }
+        public ContatoModel Adicionar(ContatoModel contato)
+        {
+            // Gravar no banco de dados
+            _bancoContext.Contatos.Add(contato);
+            _bancoContext.SaveChanges();
 
-            public ContatoRepositorio(BancoContext bancoContext)
-            {
-                _bancoContext = bancoContext;
-            }
-
-
-            public ContatoModel Adicionar(ContatoModel contato)
-            {
-                _bancoContext.Contatos.Add(contato);
-                _bancoContext.SaveChanges();
-                return contato;
-
-            }
+            return contato; 
         }
     }
 }

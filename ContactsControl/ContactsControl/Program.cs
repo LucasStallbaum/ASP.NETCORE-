@@ -1,6 +1,8 @@
 using ContactsControl.Data;
+using ContactsControl.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using WebApplication3.Repostorio;
 
 namespace ContactsControl
 {
@@ -15,6 +17,8 @@ namespace ContactsControl
 
             builder.Services.AddEntityFrameworkSqlServer()
                 .AddDbContext<BancoContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
+
+            builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
 
             var app = builder.Build();
 

@@ -4033,19 +4033,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luasa\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luasa\\OneDrive\\Documentos\\GitHub\\NETCCORE_MVC\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
       "projectName": "ContactsControl",
-      "projectPath": "C:\\Users\\luasa\\OneDrive\\Documentos\\GitHub\\NETCCORE_MVC\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
-      "packagesPath": "C:\\Users\\luasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luasa\\OneDrive\\Documentos\\GitHub\\NETCCORE_MVC\\ContactsControl\\ContactsControl\\obj\\",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\luasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4053,7 +4053,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4116,7 +4116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

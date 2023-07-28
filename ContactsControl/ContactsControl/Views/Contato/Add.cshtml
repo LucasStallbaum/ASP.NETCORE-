@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ContatoModel
+@{
     ViewData["Title"] = "Cadastro de Contatos";
 }
 <div class="text-center">
@@ -8,21 +9,27 @@
 <br>
 <br>
 <br>
-<form class="needs-validation  align-content-sm-start" novalidate>
+
+<form class="needs-validation  align-content-sm-start" novalidate asp-controller="Contato" asp-action="Add" method="post">
+
     <div class="container">
         <div class="form-row row">
             <div class="col-md-4 mb-3 col-sn">
-                <input type="text" class="form-control ColorSiteDark" id="validationCustom01" placeholder="Nome Completo" required>
+                <input type="text" asp-for = "Nome" class="form-control ColorSiteDark" id="validationCustom01" placeholder="Nome Completo" required>
             </div>
             <div class="col-md-4 mb-3 col-sn">
-                <input type="text" class="form-control ColorSiteDark" id="validationCustom02" placeholder="E-Mail" required>
+                <input type="text" asp-for = "Email" class="form-control ColorSiteDark" id="validationCustom02" placeholder="E-Mail" required>
             </div>
             <div class="col-md-4 mb-3 col-sn">
-                <input type="text" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Contato" aria-describedby="inputGroupPrepend" required>
+                <input type="text" asp-for = "Celular" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Contato" aria-describedby="inputGroupPrepend" required>
             </div>
         </div>
     </div>
+
     <br><br>
+
     <button class="btn btn-outline-success" type="submit">Cadastrar</button>
+
     <a class="btn btn-outline-secondary text-light" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
+
 </form>
