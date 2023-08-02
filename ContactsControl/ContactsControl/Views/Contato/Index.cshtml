@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<ContatoModel>
+@{
     ViewData["Title"] = "Listagem de Contatos";
 }
 
@@ -23,28 +24,20 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Mark</td>
-                <td>Otto@gmail.com</td>
-                <td>(11) 99954 7603</td>
-                <td><a role="button" class="btn btn-outline-secondary text-light" asp-controller="Contato" asp-action="Edit">Editar</a></td>
-
-                <td><a role="button" class="btn btn-outline-danger" asp-controller="Contato" asp-action="DeletConfirm">Remover</a></td>
-            </tr>
-            <tr>
-                <td>Jacob</td>
-                <td>Thornton@gmail.com</td>
-                <td>(45) 99964 0903</td>
-                <td><a role="button" class="btn btn-outline-secondary text-light" asp-controller="Contato" asp-action="Edit">Editar</a></td>
-                <td><a role="button" class="btn btn-outline-danger" asp-controller="Contato" asp-action="DeletConfirm">Remover</a></td>
-            </tr>
-            <tr>
-                <td>Larry</td>
-                <td>theBird@gmail.com</td>
-                <td>(21) 99904 2003</td>
-                <td><a role="button" class="btn btn-outline-secondary text-light" asp-controller="Contato" asp-action="Edit">Editar</a></td>
-                <td><a role="button" class="btn btn-outline-danger" asp-controller="Contato" asp-action="DeletConfirm">Remover</a></td>
-            </tr>
+            @if(Model != null && Model.Any())
+            {
+                foreach (ContatoModel contato in Model)
+                {
+                    <tr>
+                        <td>@contato.Id</td>
+                        <td>@contato.Nome</td>
+                        <td>@contato.Email</td>
+                        <td>@contato.Celular</td>
+                        <td><a role="button" class="btn btn-outline-secondary text-light" asp-route-id = "@contato.Id" asp-controller="Contato" asp-action="Edit">Editar</a></td>
+                        <td><a role="button" class="btn btn-outline-danger"               asp-route-id = "@contato.Id" asp-controller="Contato" asp-action="DeletConfirm">Remover</a></td>
+                    </tr>
+                }
+            }
         </tbody>
     </table>
 </div>

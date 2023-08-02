@@ -13,24 +13,41 @@ namespace ContactsControl.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            List <ContatoModel> contatos = _contatoRepositorio.BuscarTodos();
+            return View(contatos);
         }
         public IActionResult Add()
         {
             return View();
         }
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
-            return View();
+           ContatoModel contato = _contatoRepositorio.ListarPorId(id);
+            return View(contato);
         }
-        public IActionResult DeletConfirm()
+        
+        public IActionResult DeletConfirm(int id)
         {
-            return View();
+            ContatoModel contato = _contatoRepositorio.ListarPorId(id);
+            return View(contato);
         }
+
+        public IActionResult Delet(int id)
+        {
+            _contatoRepositorio.Delet(id);
+            return  RedirectToAction("Index");
+        }
+
         [HttpPost]
         public IActionResult Add(ContatoModel contato) 
         {
             _contatoRepositorio.Adicionar(contato); 
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult Edit(ContatoModel contato)
+        {
+            _contatoRepositorio.Atualizar(contato);
             return RedirectToAction("Index");
         }
     }

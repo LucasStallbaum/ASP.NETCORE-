@@ -1,27 +1,36 @@
-﻿@{
-    ViewData["Title"] = "Edição de Contatos";
+﻿@model ContatoModel
+@{
+    ViewData["Title"] = "Alteração de Contatos";
 }
 <div class="cont">
     <div class="text-center">
 
-        <h1 class="display-4">Editor de Contato</h1>
+        <h1 class="display-4">Editor de Contatos</h1>
     </div>
     <br>
     <br>
     <br>
-    <form class="needs-validation  align-content-sm-start" novalidate>
+    <form class="needs-validation  align-content-sm-start" novalidate asp-controller="Contato" asp-action="Edit" method="post">
+
+        <input type = "hidden" asp-for = "Id"/>
         <div class="container">
+
             <div class="form-row row">
+
                 <div class="col-md-4 mb-3 col-sn">
-                    <input type="text" class="form-control ColorSiteDark" id="validationCustom01" placeholder="Nome Completo" required>
+                    <input type="text" asp-for="Nome" class="form-control ColorSiteDark" id="validationCustom01" required>
                 </div>
+
                 <div class="col-md-4 mb-3 col-sn">
-                    <input type="text" class="form-control ColorSiteDark" id="validationCustom02" placeholder="E-Mail" required>
+                    <input type="text" asp-for="Email" class="form-control ColorSiteDark" id="validationCustom02" required>
                 </div>
+
                 <div class="col-md-4 mb-3 col-sn">
-                    <input type="text" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Contato" aria-describedby="inputGroupPrepend" required>
+                    <input type="text" asp-for="Celular" class="form-control ColorSiteDark" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                 </div>
+
             </div>
+
         </div>
         <br><br>
         <button class="btn btn-outline-success" type="submit">Alterar</button>
