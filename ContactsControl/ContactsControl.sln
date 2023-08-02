@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsControl", "ContactsControl\ContactsControl.csproj", "{3909725D-64BB-47A7-B45C-A94384AE11FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsControl", "ContactsControl\ContactsControl.csproj", "{3909725D-64BB-47A7-B45C-A94384AE11FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C402DA4-0A60-496D-9D79-DE4C77BDC9F4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

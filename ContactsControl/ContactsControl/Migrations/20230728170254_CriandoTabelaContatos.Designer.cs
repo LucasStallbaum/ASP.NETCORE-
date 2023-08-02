@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContactsControl.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20230627165746_CriandoTabelContatos")]
-    partial class CriandoTabelContatos
+    [Migration("20230728170254_CriandoTabelaContatos")]
+    partial class CriandoTabelaContatos
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

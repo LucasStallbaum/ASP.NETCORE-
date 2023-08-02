@@ -3,7 +3,7 @@ using ContactsControl.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ContactsControl.Controllers
-{
+{ 
     public class ContatoController : Controller
     {
         private readonly IContatoRepositorio _contatoRepositorio;
@@ -28,7 +28,7 @@ namespace ContactsControl.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Criar(ContatoModel contato) 
+        public IActionResult Add(ContatoModel contato) 
         {
             _contatoRepositorio.Adicionar(contato); 
             return RedirectToAction("Index");
