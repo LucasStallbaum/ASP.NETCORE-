@@ -19,14 +19,17 @@
 
                 <div class="col-md-4 mb-3 col-sn">
                     <input type="text" asp-for="Nome" class="form-control ColorSiteDark" id="validationCustom01" required>
+                    @Html.ValidationMessageFor(x => x.Nome)
                 </div>
 
                 <div class="col-md-4 mb-3 col-sn">
                     <input type="text" asp-for="Email" class="form-control ColorSiteDark" id="validationCustom02" required>
+                    @Html.ValidationMessageFor(x => x.Email)
                 </div>
 
                 <div class="col-md-4 mb-3 col-sn">
                     <input type="text" asp-for="Celular" class="form-control ColorSiteDark" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    @Html.ValidationMessageFor(x => x.Celular)
                 </div>
 
             </div>

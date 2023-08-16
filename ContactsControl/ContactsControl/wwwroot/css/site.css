@@ -17,7 +17,9 @@ body {
     margin-bottom: 60px;
     transition: 0.3s;
 }
-
+.field-validation-error {
+    color: #f00;
+}
 
 /*CheckBox para deixar o site no tema escuro ou claro.*/
 .ColorSiteDark {

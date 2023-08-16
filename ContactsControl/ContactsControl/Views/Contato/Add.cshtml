@@ -15,13 +15,19 @@
     <div class="container">
         <div class="form-row row">
             <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">badge</span>
                 <input type="text" asp-for = "Nome" class="form-control ColorSiteDark" id="validationCustom01" placeholder="Nome Completo" required>
+                @Html.ValidationMessageFor(x => x.Nome)    
             </div>
             <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">alternate_email</span>
                 <input type="text" asp-for = "Email" class="form-control ColorSiteDark" id="validationCustom02" placeholder="E-Mail" required>
+                @Html.ValidationMessageFor(x => x.Email)
             </div>
             <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">smartphone</span>
                 <input type="text" asp-for = "Celular" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Contato" aria-describedby="inputGroupPrepend" required>
+                @Html.ValidationMessageFor(x => x.Celular)
             </div>
         </div>
     </div>
