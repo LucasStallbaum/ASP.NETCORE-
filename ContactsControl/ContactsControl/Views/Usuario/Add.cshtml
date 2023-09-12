@@ -1,0 +1,46 @@
+﻿@model UsuarioModel
+@{
+    ViewData["Title"] = "Cadastro de Usuários";
+}
+<div class="text-center">
+
+    <h1 class="display-4">Cadastrar Usuários</h1>
+</div>
+<br>
+<br>
+<br>
+
+<form class="needs-validation  align-content-sm-start" novalidate asp-controller="Usuario" asp-action="Add" method="post">
+
+    <div class="container">
+        <div class="form-row row">
+            <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">face</span>
+                <input type="text" asp-for = "Name" class="form-control ColorSiteDark" id="validationCustom01" placeholder="Nome Completo" required>
+                @Html.ValidationMessageFor(x => x.Name)    
+            </div>
+            <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">badge</span>
+                <input type="text" asp-for="Login" class="form-control ColorSiteDark" id="validationCustom02" placeholder="Login" required>
+                @Html.ValidationMessageFor(x => x.Login)
+            </div>
+            <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">alternate_email</span>
+                <input type="text" asp-for="Email" class="form-control ColorSiteDark" id="validationCustom02" placeholder="E-Mail" required>
+                @Html.ValidationMessageFor(x => x.Email)
+            </div>
+            <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">smartphone</span>
+                <input type="text" asp-for="DataCadastro" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Contato" aria-describedby="inputGroupPrepend" required>
+                @Html.ValidationMessageFor(x => x.DataCadastro)
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <button class="btn btn-outline-success" type="submit">Cadastrar</button>
+
+    <a class="btn btn-outline-secondary text-light" asp-controller="Usuario" asp-action="Index" role="button">Voltar</a>
+
+</form>
