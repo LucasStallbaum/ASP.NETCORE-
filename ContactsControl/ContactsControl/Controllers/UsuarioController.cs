@@ -7,7 +7,7 @@ namespace ContactsControl.Controllers
 {
     public class UsuarioController : Controller
     {
-        private readonly IUsuarioRepositorio _usuarioRepositorio;
+        private readonly IUsuarioRepositorio _usuarioRepositorio;,0
         public UsuarioController(IUsuarioRepositorio usuarioRepositorio)
         {
             _usuarioRepositorio = usuarioRepositorio;
