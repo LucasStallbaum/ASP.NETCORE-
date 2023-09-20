@@ -4,7 +4,7 @@ using ContactsControl.Repositorio;
 
 namespace WebApplication3.Repostorio
 {
-    public class ContatoRepositorio : IUsuarioRepositorio
+    public class ContatoRepositorio : IContatoRepositorio
     {
         private readonly BancoContext _context;
         public ContatoRepositorio(BancoContext bancoContext)

@@ -2,7 +2,7 @@
 
 namespace ContactsControl.Repositorio
 {
-    public interface IUsuarioRepositorio
+    public interface IContatoRepositorio
     {
         ContatoModel ListarPorId(int id);
 
