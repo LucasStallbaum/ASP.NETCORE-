@@ -18,8 +18,7 @@ namespace ContactsControl
             builder.Services.AddEntityFrameworkSqlServer()
                 .AddDbContext<BancoContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
 
-            builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
-            builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+            builder.Services.AddScoped<IUsuarioRepositorio, ContatoRepositorio>();
 
             var app = builder.Build();
 

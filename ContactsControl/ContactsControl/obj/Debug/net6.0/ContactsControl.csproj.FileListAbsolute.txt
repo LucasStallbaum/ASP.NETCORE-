@@ -1189,15 +1189,3 @@ C:\Python\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\refint\C
 C:\Python\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.pdb
 C:\Python\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.genruntimeconfig.cache
 C:\Python\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ref\ContactsControl.dll
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.csproj.AssemblyReference.cache
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.AssemblyInfoInputs.cache
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.AssemblyInfo.cs
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.csproj.CoreCompileInputs.cache
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.MvcApplicationPartsAssemblyInfo.cs
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.RazorAssemblyInfo.cache
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.RazorAssemblyInfo.cs
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.dll
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\refint\ContactsControl.dll
-C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\obj\Debug\net6.0\ContactsControl.pdb

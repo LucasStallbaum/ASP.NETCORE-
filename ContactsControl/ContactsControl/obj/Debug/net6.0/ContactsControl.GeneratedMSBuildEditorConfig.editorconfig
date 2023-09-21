@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ContactsControl
 build_property.RootNamespace = ContactsControl
-build_property.ProjectDir = C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl\
+build_property.ProjectDir = C:\Users\lucas\OneDrive\Documentos\GitHub\ASP.NETCORE-\ContactsControl\ContactsControl\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Projects\ASP.NETCORE-\ContactsControl\ContactsControl
+build_property.MSBuildProjectDirectory = C:\Users\lucas\OneDrive\Documentos\GitHub\ASP.NETCORE-\ContactsControl\ContactsControl
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/Add.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/DeletConfirm.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/DeletConfirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xEZWxldENvbmZpcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/Edit.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/Index.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Contato/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Home/Index.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Home/Privacy.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Shared/Error.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Usuario/Add.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Usuario/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Usuario/Index.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/_ViewImports.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/_ViewStart.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Shared/_Layout.cshtml]
+[C:/Users/lucas/OneDrive/Documentos/GitHub/ASP.NETCORE-/ContactsControl/ContactsControl/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9yed87gvi8

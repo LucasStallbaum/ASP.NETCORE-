@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c677d4+h0OfBVLHVjJ8K/Gt8nKT1dhWPjOCl65DZyn/jp9JS6zDX62heLzsAu0FzvV7Uo3qBssq3N2nwaE0m5g==",
+  "dgSpecHash": "lPcOwN+DquvG8Y10RNTHLNOzPIY6nziWCsdstTI8ecqQr1ZhBqK85q9TqoJ57Qvl0TxZ7tLXUmaDeGqoI5GJcw==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -4038,11 +4038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
       "projectName": "ContactsControl",
-      "projectPath": "C:\\Projects\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\ContactsControl.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ASP.NETCORE-\\ContactsControl\\ContactsControl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
