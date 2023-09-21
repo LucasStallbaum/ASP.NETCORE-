@@ -1,13 +1,14 @@
 ﻿using ContactsControl.Models;
 using ContactsControl.Repositorio;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication3.Repostorio;
 
 namespace ContactsControl.Controllers
 { 
     public class ContatoController : Controller
     {
-        private readonly IUsuarioRepositorio _contatoRepositorio;
-        public ContatoController(IUsuarioRepositorio contatoRepositorio) 
+        private readonly IContatoRepositorio _contatoRepositorio;
+        public ContatoController(IContatoRepositorio contatoRepositorio) 
         {
             _contatoRepositorio = contatoRepositorio; 
         }
