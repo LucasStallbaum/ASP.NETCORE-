@@ -1,0 +1,57 @@
+﻿@using ContactsControl.Enums;
+@model UsuarioModel
+@{
+    ViewData["Title"] = "Alteração de Usuários";
+}
+<div class="cont">
+    <div class="text-center">
+
+        <h1 class="display-4">Editor de Usuários</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <form class="needs-validation  align-content-sm-start" novalidate asp-controller="Usuario" asp-action="Edit" method="post">
+
+        <input type="hidden" asp-for="Id" />
+        <div class="container">
+
+            <div class="form-row row">
+
+                <div class="col-md-4 mb-3 col-sn">
+                    <span class="material-symbols-outlined">face</span>
+                    <span>Nome</span>
+                    <input type="text" asp-for="Name" class="form-control ColorSiteDark" id="validationCustom01" required>
+                    @Html.ValidationMessageFor(x => x.Name)
+                </div>
+
+                <div class="col-md-4 mb-3 col-sn">
+                    <span class="material-symbols-outlined">badge</span>
+                    <span>E-Mail</span>
+                    <input type="text" asp-for="Email" class="form-control ColorSiteDark" id="validationCustom02" required>
+                    @Html.ValidationMessageFor(x => x.Email)
+                </div>
+
+                <div class="col-md-4 mb-3 col-sn">
+                    <span class="material-symbols-outlined">badge</span>
+                    <span> Login </span>
+                    <input type="text" asp-for="Login" class="form-control ColorSiteDark" id="validationCustom02" placeholder="Login" required>
+                    @Html.ValidationMessageFor(x => x.Login)
+                </div>
+
+                <div class="col-md-4 mb-3 col-sn">
+                    <span class="material-symbols-outlined">group</span>
+                    <select class="form-select ColorSiteDark">
+                        <option value="">Selecione</option>
+                        <option value="@PerfilEnum.Admin">Administrador</option>
+                        <option value="@PerfilEnum.Padrao">Padrão</option>
+                    </select>
+                    @Html.ValidationMessageFor(x => x.Perfil)
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <button class="btn btn-outline-danger" type="submit">Alterar</button>
+        <a class="btn btn-outline-secondary text-light" asp-controller="Usuario" asp-action="Index" role="button">Voltar</a>
+    </form>
+</div>

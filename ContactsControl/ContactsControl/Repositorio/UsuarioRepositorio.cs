@@ -17,6 +17,7 @@ namespace WebApplication3.Repostorio
         }
         public List<UsuarioModel> BuscarTodos()
         {
+            //Busca os dados de banco
             return _context.Usuarios.ToList();
         }
         public UsuarioModel Adicionar(UsuarioModel usuario)
@@ -57,46 +58,6 @@ namespace WebApplication3.Repostorio
             _context.SaveChanges();
 
             return true;
-        }
-
-        UsuarioModel IUsuarioRepositorio.ListarPorId(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<UsuarioModel> IUsuarioRepositorio.BuscarTodos()
-        {
-            throw new NotImplementedException();
-        }
-
-        public UsuarioModel Adicionar(UsuarioModel usuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        public UsuarioModel Atualizar(UsuarioModel usuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        ContatoModel IUsuarioRepositorio.ListarPorId(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<ContatoModel> IUsuarioRepositorio.BuscarTodos()
-        {
-            throw new NotImplementedException();
-        }
-
-        public ContatoModel Adicionar(ContatoModel contato)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ContatoModel Atualizar(ContatoModel contato)
-        {
-            throw new NotImplementedException();
         }
     }
 }

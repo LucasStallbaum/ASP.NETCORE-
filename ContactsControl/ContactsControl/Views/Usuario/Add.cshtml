@@ -1,4 +1,5 @@
-﻿@model UsuarioModel
+﻿@using ContactsControl.Enums;
+@model UsuarioModel
 @{
     ViewData["Title"] = "Cadastro de Usuários";
 }
@@ -16,23 +17,36 @@
         <div class="form-row row">
             <div class="col-md-4 mb-3 col-sn">
                 <span class="material-symbols-outlined">face</span>
+                <span>Nome</span>
                 <input type="text" asp-for = "Name" class="form-control ColorSiteDark" id="validationCustom01" placeholder="Nome Completo" required>
                 @Html.ValidationMessageFor(x => x.Name)    
             </div>
             <div class="col-md-4 mb-3 col-sn">
                 <span class="material-symbols-outlined">badge</span>
-                <input type="text" asp-for="Login" class="form-control ColorSiteDark" id="validationCustom02" placeholder="Login" required>
-                @Html.ValidationMessageFor(x => x.Login)
-            </div>
-            <div class="col-md-4 mb-3 col-sn">
-                <span class="material-symbols-outlined">alternate_email</span>
+                <span>E-Mail</span>
                 <input type="text" asp-for="Email" class="form-control ColorSiteDark" id="validationCustom02" placeholder="E-Mail" required>
                 @Html.ValidationMessageFor(x => x.Email)
             </div>
             <div class="col-md-4 mb-3 col-sn">
-                <span class="material-symbols-outlined">smartphone</span>
-                <input type="text" asp-for="DataCadastro" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Contato" aria-describedby="inputGroupPrepend" required>
-                @Html.ValidationMessageFor(x => x.DataCadastro)
+                <span class="material-symbols-outlined">badge</span>
+                <span> Login </span>
+                <input type="text" asp-for="Login" class="form-control ColorSiteDark" id="validationCustom02" placeholder="Login" required>
+                @Html.ValidationMessageFor(x => x.Login)
+            </div>
+            <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">group</span>
+                <select class="form-select ColorSiteDark">
+                    <option value = "">Selecione</option>
+                    <option value="@PerfilEnum.Admin">Administrador</option>
+                    <option value="@PerfilEnum.Padrao">Padrão</option>
+                </select>
+                @Html.ValidationMessageFor(x => x.Perfil)
+            </div>
+            <div class="col-md-4 mb-3 col-sn">
+                <span class="material-symbols-outlined">key</span>
+                <span>Senha</span>
+                <input type="password" asp-for="Senha" class="form-control ColorSiteDark" id="validationCustomUsername" placeholder="Senha" aria-describedby="inputGroupPrepend" required>
+                @Html.ValidationMessageFor(x => x.Senha)
             </div>
         </div>
     </div>
